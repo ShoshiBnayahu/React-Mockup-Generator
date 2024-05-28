@@ -8,16 +8,16 @@ import RMGButton from './components/RMGButton';
 
 
 const Main: React.FC = () => {
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    console.log(event.target.value);
-  };
+  // const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  //   console.log(event.target.value);
+  // };
 
-  const handleClick = () => {
-    console.log('Button clicked');
-  };
+  // const handleClick = () => {
+  //   console.log('Button clicked');
+  // };
 
   return (
-    <h1>app work!</h1>
+    <h1>app work</h1>
     // <div className="container mx-auto p-4">
     //   <RMGHeader title="Welcome to React Modern Components" />
     //   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
