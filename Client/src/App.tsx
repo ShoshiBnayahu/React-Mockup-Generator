@@ -17,19 +17,20 @@ const Main: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
-      <RMGHeader title="Welcome to React Modern Components" />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div>
-          <RMGText text="This is an example of using Tailwind CSS with React components." />
-          <RMGInput value="" onChange={handleChange} />
-          <RMGButton title="Click me" onClick={handleClick} />
-        </div>
-        <div className="flex justify-center items-center">
-          <RMGImage src="https://via.placeholder.com/500" alt="Placeholder Image" />
-        </div>
-      </div>
-    </div>
+    <h1>app work!</h1>
+    // <div className="container mx-auto p-4">
+    //   <RMGHeader title="Welcome to React Modern Components" />
+    //   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    //     <div>
+    //       <RMGText text="This is an example of using Tailwind CSS with React components." />
+    //       <RMGInput value="" onChange={handleChange} />
+    //       <RMGButton title="Click me" onClick={handleClick} />
+    //     </div>
+    //     <div className="flex justify-center items-center">
+    //       <RMGImage src="https://via.placeholder.com/500" alt="Placeholder Image" />
+    //     </div>
+    //   </div>
+    // </div>
   );
 };
 

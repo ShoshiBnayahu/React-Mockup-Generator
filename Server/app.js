@@ -1,6 +1,9 @@
 const { OpenAI } = require('openai');
 
-const OPENAI_API_KEY = 'sk-proj-67MLaq1Oq8QbPTkSqCRpT3BlbkFJTK0oVNxsOTPjT0AqxtaP';
+require('dotenv').config();
+
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+
 
 const express = require('express');
 const app = express();
