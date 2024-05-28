@@ -1,0 +1,54 @@
+
+/* General styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #dd0c2f;
+}
+
+/* Header styles */
+.RMGHeader {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+.RMGHeader h1 {
+  font-size: 24px;
+  color: #631e1e;
+}
+
+/* Text styles */
+.RMGText {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Input styles */
+.RMGInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Image styles */
+.RMGImage {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+.RMGButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.RMGButton:hover {
+  background-color: #dd0c2f;
+}
